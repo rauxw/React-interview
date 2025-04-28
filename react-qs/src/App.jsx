@@ -8,7 +8,9 @@ function App() {
           <h1 className="text-5xl font-bold">React Questions</h1>
         </div>
       </header>
-      <main>{/* <Counter /> */}</main>
+      <main>
+        <Counter />
+      </main>
     </div>
   );
 }
