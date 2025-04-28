@@ -1,3 +1,4 @@
+import ClickOutsideDropdown from "./components/ClickOutsideDropdown";
 import Counter from "./components/Counter";
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
         </div>
       </header>
       <main>
-        <Counter />
+        {/* <Counter /> */}
+        <ClickOutsideDropdown />
       </main>
     </div>
   );
