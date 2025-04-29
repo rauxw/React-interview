@@ -6,14 +6,14 @@ function Counter() {
   const [position, setPosition] = useState(0);
   const currentValue = history[position];
 
-  const addValuetoHistory = (newValue) => {
+  const addValueToHistory = (newValue) => {
     const newHistory = history.slice(0, position + 1);
     setHistory([...newHistory, newValue]);
     setPosition((prev) => prev + 1);
   };
 
-  const decrement = () => addValuetoHistory(currentValue - 1);
-  const increment = () => addValuetoHistory(currentValue + 1);
+  const decrement = () => addValueToHistory(currentValue - 1);
+  const increment = () => addValueToHistory(currentValue + 1);
 
   const undo = () => {
     if (position > 0) {
