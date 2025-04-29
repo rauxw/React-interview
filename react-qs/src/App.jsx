@@ -1,6 +1,7 @@
 import ClickOutsideDropdown from "./components/ClickOutsideDropdown";
 import Counter from "./components/Counter";
 import InlineEditableInput from "./components/InlineEditableInput";
+import Temperature from "./components/Temperature";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <main>
         {/* <Counter /> */}
         {/* <ClickOutsideDropdown /> */}
-        <InlineEditableInput />
+        {/* <InlineEditableInput /> */}
+        <Temperature />
       </main>
     </div>
   );
