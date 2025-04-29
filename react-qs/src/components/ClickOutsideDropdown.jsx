@@ -25,9 +25,7 @@ function ClickOutsideDropdown() {
 
   return (
     <div className="flex flex-col items-center justify-center mt-10 bg-gray-300">
-      <h1 className="text-2xl font-bold mb-6">
-        Close Dropdown On Outside Click
-      </h1>
+      <h1 className="text-2xl  mb-6">Close Dropdown On Outside Click</h1>
       <div className="relative w-64" ref={dropdownRef}>
         <button
           className="flex w-full items-center justify-between border border-gray-300 p-3 rounded-lg bg-white shadow-sm hover:shadow-md transition"

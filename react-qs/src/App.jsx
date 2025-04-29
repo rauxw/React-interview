@@ -1,5 +1,6 @@
 import ClickOutsideDropdown from "./components/ClickOutsideDropdown";
 import Counter from "./components/Counter";
+import InlineEditableInput from "./components/InlineEditableInput";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       </header>
       <main>
         {/* <Counter /> */}
-        <ClickOutsideDropdown />
+        {/* <ClickOutsideDropdown /> */}
+        <InlineEditableInput />
       </main>
     </div>
   );
