@@ -1,7 +1,10 @@
 import ClickOutsideDropdown from "./components/ClickOutsideDropdown";
 import Counter from "./components/Counter";
+import Formvalidation from "./components/Formvalidation";
 import InlineEditableInput from "./components/InlineEditableInput";
+import Otp from "./components/Otp";
 import Otpvalidation from "./components/Otpvalidation";
+import OutsideDropdown from "./components/OutsideDropdown";
 import Temperature from "./components/Temperature";
 
 function App() {
@@ -13,11 +16,14 @@ function App() {
         </div>
       </header>
       <main>
+        {/* <OutsideDropdown /> */}
         {/* <Counter /> */}
         {/* <ClickOutsideDropdown /> */}
         {/* <InlineEditableInput /> */}
         {/* <Temperature /> */}
-        <Otpvalidation />
+        {/* <Otpvalidation /> */}
+        {/* <Otp /> */}
+        <Formvalidation />
       </main>
     </div>
   );
