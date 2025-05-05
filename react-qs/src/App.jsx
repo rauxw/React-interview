@@ -2,6 +2,7 @@ import ClickOutsideDropdown from "./components/ClickOutsideDropdown";
 import Counter from "./components/Counter";
 import CustomKeyboard from "./components/CustomKeyboard";
 import CustomKeyboardX from "./components/CustomKeyboardX";
+import Flattenobjectinstructor from "./components/Flattenobjectinstructor";
 import FlipCardCss from "./components/FlipCardCss";
 import Formvalidation from "./components/Formvalidation";
 import InlineEditableInput from "./components/InlineEditableInput";
@@ -33,7 +34,8 @@ function App() {
           <Formvalidation /> */}
         {/* <FlipCardCss /> */}
         {/* <CustomKeyboard /> */}
-        <CustomKeyboardX />
+        {/* <CustomKeyboardX /> */}
+        <Flattenobjectinstructor />
       </main>
     </div>
   );
