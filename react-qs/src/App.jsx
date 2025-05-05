@@ -1,5 +1,7 @@
 import ClickOutsideDropdown from "./components/ClickOutsideDropdown";
 import Counter from "./components/Counter";
+import CustomKeyboard from "./components/CustomKeyboard";
+import FlipCardCss from "./components/FlipCardCss";
 import Formvalidation from "./components/Formvalidation";
 import InlineEditableInput from "./components/InlineEditableInput";
 import Otp from "./components/Otp";
@@ -16,14 +18,20 @@ function App() {
         </div>
       </header>
       <main>
-        {/* <OutsideDropdown /> */}
-        {/* <Counter /> */}
-        {/* <ClickOutsideDropdown /> */}
-        {/* <InlineEditableInput /> */}
-        {/* <Temperature /> */}
-        {/* <Otpvalidation /> */}
-        {/* <Otp /> */}
-        <Formvalidation />
+        {/* <Counter />
+          <br />
+          <ClickOutsideDropdown />
+          <br />
+          <InlineEditableInput />
+          <br />
+          <Temperature />
+          <br />
+          <Otpvalidation />
+          <Otp />
+          <br />
+          <Formvalidation /> */}
+        {/* <FlipCardCss /> */}
+        {/* <CustomKeyboard /> */}
       </main>
     </div>
   );
