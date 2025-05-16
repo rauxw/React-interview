@@ -6,6 +6,7 @@ import Flattenobjectinstructor from "./components/Flattenobjectinstructor";
 import FlipCardCss from "./components/FlipCardCss";
 import Formvalidation from "./components/Formvalidation";
 import InlineEditableInput from "./components/InlineEditableInput";
+import KeyboardModalInteraction from "./components/KeyboardModalInteraction";
 import Otp from "./components/Otp";
 import Otpvalidation from "./components/Otpvalidation";
 import OutsideDropdown from "./components/OutsideDropdown";
@@ -35,7 +36,8 @@ function App() {
         {/* <FlipCardCss /> */}
         {/* <CustomKeyboard /> */}
         {/* <CustomKeyboardX /> */}
-        <Flattenobjectinstructor />
+        {/* <Flattenobjectinstructor /> */}
+        <KeyboardModalInteraction />
       </main>
     </div>
   );
