@@ -11,7 +11,9 @@ import KeyboardModalInteraction from "./components/KeyboardModalInteraction";
 import Otp from "./components/Otp";
 import Otpvalidation from "./components/Otpvalidation";
 import OutsideDropdown from "./components/OutsideDropdown";
+import ProductList from "./components/ProductList";
 import Temperature from "./components/Temperature";
+import ProductProvider from "./context/product.context";
 
 function App() {
   return (
@@ -45,6 +47,9 @@ function App() {
         {/* <br /> */}
         {/* <KeyboardModalInteraction /> */}
         {/* <DeepClone /> */}
+        <ProductProvider>
+          <ProductList />
+        </ProductProvider>
       </main>
     </div>
   );
