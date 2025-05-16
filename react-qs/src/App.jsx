@@ -2,6 +2,7 @@ import ClickOutsideDropdown from "./components/ClickOutsideDropdown";
 import Counter from "./components/Counter";
 import CustomKeyboard from "./components/CustomKeyboard";
 import CustomKeyboardX from "./components/CustomKeyboardX";
+import DeepClone from "./components/DeepClone";
 import Flattenobjectinstructor from "./components/Flattenobjectinstructor";
 import FlipCardCss from "./components/FlipCardCss";
 import Formvalidation from "./components/Formvalidation";
@@ -21,23 +22,29 @@ function App() {
         </div>
       </header>
       <main>
-        {/* <Counter />
-          <br />
-          <ClickOutsideDropdown />
-          <br />
-          <InlineEditableInput />
-          <br />
-          <Temperature />
-          <br />
-          <Otpvalidation />
-          <Otp />
-          <br />
-          <Formvalidation /> */}
+        {/* <Counter /> */}
+        {/* <br /> */}
+        {/* <ClickOutsideDropdown /> */}
+        {/* <br /> */}
+        {/* <InlineEditableInput /> */}
+        {/* <br /> */}
+        {/* <Temperature /> */}
+        {/* <br /> */}
+        {/* <Otpvalidation /> */}
+        {/* <Otp /> */}
+        {/* <br /> */}
+        {/* <Formvalidation /> */}
+        {/* <br /> */}
         {/* <FlipCardCss /> */}
+        {/* <br /> */}
         {/* <CustomKeyboard /> */}
+        {/* <br /> */}
         {/* <CustomKeyboardX /> */}
+        {/* <br /> */}
         {/* <Flattenobjectinstructor /> */}
-        <KeyboardModalInteraction />
+        {/* <br /> */}
+        {/* <KeyboardModalInteraction /> */}
+        {/* <DeepClone /> */}
       </main>
     </div>
   );
