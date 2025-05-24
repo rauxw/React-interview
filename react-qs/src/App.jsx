@@ -15,6 +15,7 @@ import OutsideDropdown from "./components/OutsideDropdown";
 import ProductList from "./components/ProductList";
 import Temperature from "./components/Temperature";
 import ProductProvider from "./context/product.context";
+import Prmain from "./practice-components/Prmain";
 
 function App() {
   return (
@@ -51,7 +52,10 @@ function App() {
         {/* <ProductProvider>
           <ProductList />
         </ProductProvider> */}
-        <Kanboard />
+        {/* <Kanboard /> */}
+
+        {/* This is For Practice Sets */}
+        <Prmain />
       </main>
     </div>
   );

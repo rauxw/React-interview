@@ -2,9 +2,9 @@ import { useState } from "react";
 
 function Kanboard() {
   const [columns, setColumns] = useState({
-    todo: ["Todo 1", "Todo 2"],
-    inProgress: ["progress"],
-    done: ["completed"],
+    todo: ["Dance", "Walk"],
+    inProgress: ["Read for 4 hours"],
+    done: ["Walk your Dog"],
   });
 
   const [dragging, setDragging] = useState(null);
