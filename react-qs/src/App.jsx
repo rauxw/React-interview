@@ -13,6 +13,7 @@ import Otp from "./components/Otp";
 import Otpvalidation from "./components/Otpvalidation";
 import OutsideDropdown from "./components/OutsideDropdown";
 import ProductList from "./components/ProductList";
+import StringCompression from "./components/StringCompression";
 import Temperature from "./components/Temperature";
 import ProductProvider from "./context/product.context";
 import Prmain from "./practice-components/Prmain";
@@ -53,9 +54,9 @@ function App() {
           <ProductList />
         </ProductProvider> */}
         {/* <Kanboard /> */}
-
+        <StringCompression />
         {/* This is For Practice Sets */}
-        <Prmain />
+        {/* <Prmain /> */}
       </main>
     </div>
   );
