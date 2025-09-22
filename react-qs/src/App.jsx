@@ -2,6 +2,7 @@ import ClickOutsideDropdown from "./components/ClickOutsideDropdown";
 import Counter from "./components/Counter";
 import CustomKeyboard from "./components/CustomKeyboard";
 import CustomKeyboardX from "./components/CustomKeyboardX";
+import DebounceApi from "./components/DebounceApi";
 import DeepClone from "./components/DeepClone";
 import Flattenobjectinstructor from "./components/Flattenobjectinstructor";
 import FlipCardCss from "./components/FlipCardCss";
@@ -54,7 +55,8 @@ function App() {
           <ProductList />
         </ProductProvider> */}
         {/* <Kanboard /> */}
-        <StringCompression />
+        {/* <StringCompression /> */}
+        {/* <DebounceApi /> */}
         {/* This is For Practice Sets */}
         {/* <Prmain /> */}
       </main>
